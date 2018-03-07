@@ -11,4 +11,8 @@ class Project
     Backer.backed_projects(bkr)
  end
 
+  def backers
+    @backers
+  end 
+
 end
