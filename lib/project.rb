@@ -8,7 +8,7 @@ class Project
   end
 
   def add_backer(bkr)
-    Backer.backed_projects(bkr)
+    @backers<<bkr
  end
 
   def backers
