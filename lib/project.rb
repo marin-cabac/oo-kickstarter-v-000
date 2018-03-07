@@ -1,10 +1,10 @@
 class Project
-  attr_accessor :title
+  
+  attr_accessor :title, :backed_projects
+   
   def initialize(title)
     @title=title
   end
-  def back_project(proj)
-    @backed_projects << proj
-  end
+   
 
 end
